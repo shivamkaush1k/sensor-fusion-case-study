@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sensor Fusion Case Study
 
 An explainable, end-to-end analytics pipeline that combines visual occupancy and audio intensity into stable event and risk decisions. It is designed for authorized footage and produces inspectable CSV telemetry rather than controlling any physical system.
@@ -63,3 +64,4 @@ logs/events.csv                 Generated output
 ## Interpretation and limitations
 
 The demo is a reproducible engineering example, not a trained threat-detection system. RMS audio is a loudness heuristic, YOLO confidence is not a semantic risk probability, and the Kalman filter introduces temporal lag by design. Camera motion, occlusion, background noise, microphone gain, and unaligned timestamps can all change the result. Calibrate thresholds against representative authorized data before using the pipeline for any operational decision.
+
